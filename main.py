@@ -7,8 +7,8 @@ def get_intSum(list1) -> int:
 
 abc = (input("input int numbers with spaces "))
 list = []
-for int(i) in abc.split(','):
-    list.append(i)
+for a in [int(i) for i in abc.split(' ')]:
+    list.append(a)
 
 
-print(get_intSum(list), "Big sausage out there")
+print(get_intSum(list), "big sausages out here")
